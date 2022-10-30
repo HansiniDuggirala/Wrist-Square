@@ -40,7 +40,7 @@ function gotPoses(results)
         console.log("noseX = " + noseX + "noseY = " + noseY );
         leftwristX = results[0].pose.leftWrist.x;
         rightwristX = results[0].pose.rightWrist.x;
-        difference = floor(leftwristX - rightwrist);
+        difference = floor(leftwristX - rightwristX);
         console.log("leftwristX = " + leftwristX + "rightwristX = " + rightwristX + "difference = "  + difference);
     }
 }
